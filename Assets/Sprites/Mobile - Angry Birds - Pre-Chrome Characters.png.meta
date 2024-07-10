@@ -8,6 +8,9 @@ TextureImporter:
   - first:
       213: -3779195787082710163
     second: SlingshotRIGHT
+  - first:
+      213: 3541534090913766213
+    second: Angry Bird
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -38,7 +41,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -150,7 +153,7 @@ TextureImporter:
         width: 37
         height: 197
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -158,6 +161,27 @@ TextureImporter:
       bones: []
       spriteID: d63484664799d8bc0800000000000000
       internalID: -3779195787082710163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Angry Bird
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 126
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54bd9d8ed7e062130800000000000000
+      internalID: 3541534090913766213
       vertices: []
       indices: 
       edges: []

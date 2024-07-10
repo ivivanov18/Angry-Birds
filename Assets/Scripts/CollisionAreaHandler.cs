@@ -8,7 +8,7 @@ public class CollisionAreaHandler : MonoBehaviour
 {
     [SerializeField]
     private LayerMask _slingShotArea;
-    public bool IsWithinArea() => Physics2D.OverlapPoint(
+    public bool IsClickedWithinSlingShotArea() => Physics2D.OverlapPoint(
                                     Camera.main.ScreenToWorldPoint(
                                         Mouse.current.position.ReadValue()), _slingShotArea);
 }
